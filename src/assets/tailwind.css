@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+    .active-client .rod {
+        @apply !block
+    }
+
+    .active-client .logo {
+        @apply !opacity-100
+    }
+    
+    .client-link {
+        @apply w-full flex items-center justify-center relative
+    }
+
+    .client-link .rod {
+        @apply w-1 h-full bg-red-400 rounded-r-lg absolute left-0 hidden
+    }
+
+    .client-link .logo {
+        @apply rounded w-11 h-11 bg-white overflow-hidden opacity-25 cursor-pointer
+    }
+
+
+
+
+    .active-link .link .notch {
+        @apply !block
+    }
+
+    .active-link .sub-menu {
+        @apply !block
+    }
+
+    .active-link .link .svg-icon {
+        @apply !fill-white
+    }
+
+    .active-link .link {
+        @apply !bg-[#f55661] hover:bg-[#f55661]
+    }
+
+
+
+
+    .nav-link .link .svg-icon {
+        @apply fill-[#f55661]
+    }
+
+    .nav-link .link .notch {
+        @apply border-solid border-[10px] w-0 h-0 left-4 -bottom-5 absolute hidden
+    }
+
+    .nav-link .link {
+        @apply w-full h-12 flex items-center px-4 justify-center gap-4 hover:bg-gray-600 transition-all cursor-pointer relative
+    }
+
+    .nav-link .sub-menu {
+        @apply bg-[#32363a] flex items-center flex-col w-full px-6 py-4 hidden
+    }
+
+    .sub-link {
+        @apply my-4 w-full flex items-center text-white gap-3 cursor-pointer
+    }
+
+
+
+
+    .edit-menu {
+        @apply flex items-center gap-3 relative cursor-pointer
+    }
+
+    .edit-menu:focus-within .menu {
+        @apply flex
+    }
+
+    .edit-menu .menu {
+        @apply absolute hidden overflow-hidden -bottom-40 rounded-lg w-44 right-0 z-10 bg-white shadow-black shadow flex-col
+    }
+
+    .edit-menu .menu .link {
+        @apply w-full flex items-center justify-between hover:bg-slate-200 px-4 h-10
+    }
+
+
+
+
+    .post {
+        @apply w-96 h-[530px] border rounded-lg flex items-center
+    }
+
+    .post .content {
+        @apply h-full w-full flex items-center justify-center flex-col px-4 gap-4 
+    }
+
+    .post .content .post-info {
+        @apply w-full flex items-center justify-between
+    }
+
+    .post .content .post-info .user {
+        @apply relative flex items-center gap-3
+    }
+
+    .post .content .post-info .user .img {
+        @apply w-10 h-10 self-start border
+    }
+
+    .post .content .post-info .user .info {
+        @apply h-full flex flex-col items-start
+    }
+
+    .post .content .activities {
+        @apply flex items-center w-full gap-4
+    }
+
+    .post .content .activities div {
+        @apply flex items-center gap-2 text-gray-500
+    }
+
+
+}
