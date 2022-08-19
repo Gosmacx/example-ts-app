@@ -8,7 +8,7 @@ import logo6 from '../assets/logo6.png'
 
 function App() {
 
-    const setClass = ({ isActive } : { isActive: boolean }) => {
+    const setClass = ({ isActive }: { isActive: boolean }) => {
         if (isActive) return 'nav-link active-link'
         else return 'nav-link'
     }
@@ -134,7 +134,7 @@ function App() {
 
                     <NavLink to='engage' className={setClass} >
                         <div className='link' >
-                            <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" className='svg-icon' ><path d="M5.625 22.7q-.7 0-1.162-.463Q4 21.775 4 21.075V8.325q0-.7.463-1.163.462-.462 1.162-.462h8.15l-1 1h-7.15q-.25 0-.437.187Q5 8.075 5 8.325v12.75q0 .25.188.437.187.188.437.188h12.75q.25 0 .437-.188.188-.187.188-.437v-7.15l1-1v8.15q0 .7-.462 1.162-.463.463-1.163.463Zm6.375-8Zm4.875-7.725.75.7-6.625 6.6V15.7h1.4l6.675-6.625.675.7-6.9 6.925H10v-2.85Zm2.875 2.8-2.875-2.8 2.1-2.075q.45-.475 1.138-.475.687 0 1.137.475l.55.55q.475.475.475 1.138 0 .662-.475 1.137Z" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" className='svg-icon'><path d="M3.375 15.55V3.775q0-.325.225-.55Q3.825 3 4.15 3h11.925q.325 0 .55.225.225.225.225.55V11.7q0 .325-.225.537-.225.213-.55.213H6.45Zm3.85.675q-.325 0-.55-.213-.225-.212-.225-.562v-1H18.2l.65.65V6h1q.325 0 .55.225.225.225.225.55V19.3l-3.075-3.075ZM15.85 4H4.375v9.125L6.05 11.45h9.8ZM4.375 4v9.125Z" /></svg>
                             <span className='text-white grow ' >ENGAGE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" className='fill-black' ><path d="M11 19v-6H5v-2h6V5h2v6h6v2h-6v6Z" /></svg>
                             <div className='notch' style={{ borderColor: '#f55661 transparent transparent transparent' }} ></div>
@@ -154,7 +154,7 @@ function App() {
 
                     <NavLink to='listen' className={setClass}>
                         <div className='link' >
-                            <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" className='svg-icon' ><path d="M5.625 22.7q-.7 0-1.162-.463Q4 21.775 4 21.075V8.325q0-.7.463-1.163.462-.462 1.162-.462h8.15l-1 1h-7.15q-.25 0-.437.187Q5 8.075 5 8.325v12.75q0 .25.188.437.187.188.437.188h12.75q.25 0 .437-.188.188-.187.188-.437v-7.15l1-1v8.15q0 .7-.462 1.162-.463.463-1.163.463Zm6.375-8Zm4.875-7.725.75.7-6.625 6.6V15.7h1.4l6.675-6.625.675.7-6.9 6.925H10v-2.85Zm2.875 2.8-2.875-2.8 2.1-2.075q.45-.475 1.138-.475.687 0 1.137.475l.55.55q.475.475.475 1.138 0 .662-.475 1.137Z" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" className='svg-icon' ><path d="M7.5 17.5v-11h1v11Zm4 4v-19h1v19Zm-8-8v-3h1v3Zm12 4v-11h1v11Zm4-4v-3h1v3Z" /></svg>
                             <span className='text-white grow ' >LISTEN</span>
                             <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" className='fill-black' ><path d="M11 19v-6H5v-2h6V5h2v6h6v2h-6v6Z" /></svg>
                             <div className='notch' style={{ borderColor: '#f55661 transparent transparent transparent' }} ></div>
@@ -174,7 +174,7 @@ function App() {
 
                     <NavLink to='report' className={setClass}>
                         <div className='link' >
-                            <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" className='svg-icon' ><path d="M5.625 22.7q-.7 0-1.162-.463Q4 21.775 4 21.075V8.325q0-.7.463-1.163.462-.462 1.162-.462h8.15l-1 1h-7.15q-.25 0-.437.187Q5 8.075 5 8.325v12.75q0 .25.188.437.187.188.437.188h12.75q.25 0 .437-.188.188-.187.188-.437v-7.15l1-1v8.15q0 .7-.462 1.162-.463.463-1.163.463Zm6.375-8Zm4.875-7.725.75.7-6.625 6.6V15.7h1.4l6.675-6.625.675.7-6.9 6.925H10v-2.85Zm2.875 2.8-2.875-2.8 2.1-2.075q.45-.475 1.138-.475.687 0 1.137.475l.55.55q.475.475.475 1.138 0 .662-.475 1.137Z" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" className='svg-icon'><path d="m3.3 17.5-.7-.7 6.7-6.775 4 4L19.725 7.7H16.4v-1h5v5h-1V8.4l-7.1 7.1-4-4Z" /></svg>
                             <span className='text-white grow ' >REPORT</span>
                             <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" className='fill-black' ><path d="M11 19v-6H5v-2h6V5h2v6h6v2h-6v6Z" /></svg>
                             <div className='notch' style={{ borderColor: '#f55661 transparent transparent transparent' }} ></div>
