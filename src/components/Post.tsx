@@ -88,19 +88,19 @@ function App({ post }: { post: PostType }) {
                         <img src={More} />
                         <div className='menu' >
                             <div className='link' >
-                                <span className='text-sm' >Remove</span>
+                                <span className='text-sm text-[#797979] ' >Remove</span>
                                 <img src={Remove} />
                             </div>
                             <div className='link' >
-                                <span className='text-sm' >Edit</span>
+                                <span className='text-sm text-[#959595] ' >Edit</span>
                                 <img src={Edit} />
                             </div>
                             <div className='link' >
-                                <span className='text-sm' >Block</span>
+                                <span className='text-sm text-[#959595] ' >Block</span>
                                 <img src={Block} />
                             </div>
                             <div className='link' >
-                                <span className='text-sm' >Repost</span>
+                                <span className='text-sm text-[#959595] ' >Repost</span>
                                 <img src={Copy} />
                             </div>
 
