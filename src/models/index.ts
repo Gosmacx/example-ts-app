@@ -1,4 +1,4 @@
-export type PostType = {
+export interface PostType {
     published_at: string,
     status: number;
     entry: {
