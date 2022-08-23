@@ -37,7 +37,7 @@ function App() {
 
         <div className="flex items-center justify-center gap-3" >
           <div className="w-3 h-3 bg-[#acacac] rounded-full " ></div>
-          <span>Published</span>
+          <span>Publishing</span>
         </div>
 
         <div className="flex items-center justify-center gap-3" >
@@ -57,7 +57,7 @@ function App() {
 
         <div className="flex items-center justify-center gap-3" >
           <div className="w-3 h-3 bg-[#67b1f2] rounded-full " ></div>
-          <span>Publishing</span>
+          <span>Published</span>
         </div>
 
       </section>

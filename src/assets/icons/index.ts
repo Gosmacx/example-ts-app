@@ -1,3 +1,5 @@
+/* ICON CONTROLLER */
+
 import Image from './image.svg'
 import Video from './video.svg'
 import More from './more.svg'

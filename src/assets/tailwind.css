@@ -4,6 +4,9 @@
 
 @layer components{
 
+
+    /* Sidebar - Client Image Classes */
+
     .active-client .rod {
         @apply !block
     }
@@ -25,7 +28,7 @@
     }
 
 
-
+    /* Active Link / Active Sub menu Classes */
 
     .active-link .link .notch {
         @apply !block
@@ -44,7 +47,7 @@
     }
 
 
-
+    /* Sidebar / Sub menu Link Classes  */
 
     .nav-link .link .svg-icon {
         @apply fill-[#f55661]
@@ -67,7 +70,7 @@
     }
 
 
-
+    /* Post Edit Menu Classes */
 
     .edit-menu {
         @apply flex items-center gap-3 relative cursor-pointer
@@ -87,6 +90,7 @@
 
 
 
+    /* Post Classes */
 
     .post {
         @apply w-96 h-[530px] border rounded-lg flex items-center

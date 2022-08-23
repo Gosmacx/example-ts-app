@@ -30,6 +30,14 @@ function App({ post }: { post: PostType }) {
         return <></>
     }
 
+    /* 
+        Function that determines (0,1,2,3,4) the status and type (photo - video) of post
+        0 => Need Approval - Yellow #f7bf38
+        1 => Scheduled - Green #3ac183
+        2 => Publishing - Grey #acacac
+        3 => Published - Blue #67b1f2
+        4 => Error - Red #fb6450
+    */
     const StatusController = ({ type, mode }: { type: number, mode: 'photo' | 'video' }) => {
 
         let classNames: string = 'h-full w-10 flex items-center justify-center rounded-l-lg'
@@ -38,7 +46,6 @@ function App({ post }: { post: PostType }) {
             case 0:
                 classNames += ' bg-[#f7bf38] '
                 break;
-
             case 1:
                 classNames += ' bg-[#3ac183]'
                 break
